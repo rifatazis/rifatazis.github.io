@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(44, 38, 38);
+}
+
+.container{
+    width: 300px;
+    background-color: black;
+    margin: 50px auto 0px auto;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#kalkulator{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #cecece;
+    font-size: 26px;
+    color: black;
+    padding: 7px 5px;
+    text-align: right;
+    outline: none;
+}
+
+.kalkulatorBtn{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tombol{
+    display: flex;
+    width: 25%;
+    font-size: 22px;
+    color: rgb(240, 240, 240);
+    height: 70px;
+    border: 1px solid rgb(54, 54, 54);    
+    border-radius: 2px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.tombol:nth-child(4n){
+    color: #fd8003;
+}
+
+.tombol:hover{
+    background: rgb(240, 240, 240);
+    cursor: pointer;
+    color: black;
+}
+
+.operator:hover{
+    color: #fd8003;
+}
+
+#nol {
+    flex-grow:1 ;
+}
+
+.operator{
+    background-color: rgb(27, 27, 27);
+    font-weight: bold;
+}
+
+#hitung {
+    background: #ff9225;
+    color: white;
+}
+
+#hitung:hover{
+    background: #ff8800;
+}
